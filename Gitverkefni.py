@@ -26,7 +26,15 @@ while svar == "já":
 
     if val ==3:
         print("Góðan daginn, hérna mun ég biðja þig um texta og mun síðan telja lágu og hástafi hjá þér")
-
+        texti = input("Sláðu inn texta!: ")
+        print("Hástafir: ", sum(1 for c in texti if c.isupper()))
+        print("Lágstafir: ", sum(1 for c in texti if c.islower()))
+        teljari = 0
+        for x in range(len(texti)):
+            if texti[x].isupper():
+                i = x + 1
+                if texti[i].islower():
+                    teljari = teljari +1
 
     if val ==4:
         break
