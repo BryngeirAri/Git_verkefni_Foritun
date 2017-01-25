@@ -9,6 +9,13 @@ while svar == "já":
     val = int(input("Hvað viltu gera?"))
     if val ==1:
         print("Góðan daginn! hérna ætla ég að biðja þig um tvær tölur og leggja þær saman og margfalda fyrir þig")
+        tala1=int(input("Sláðu inn fyrstu töluna"))
+        tala2=int(input("Sláðu inn seinnu töluna"))
+        summa=tala1+tala2
+        margfoldun=tala1*tala2
+        print("Svona eru tölunar lagðar saman ", summa)
+        print("Svona eru tölurnar margfaldaðar ", margfoldun)
+
 
 
     if val==2:
@@ -17,7 +24,7 @@ while svar == "já":
 
     if val ==3:
         print("Góðan daginn, hérna mun ég biðja þig um texta og mun síðan telja lágu og hástafi hjá þér")
-        
+
 
     if val ==4:
         break
