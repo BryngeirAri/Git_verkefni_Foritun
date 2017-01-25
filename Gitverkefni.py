@@ -20,7 +20,9 @@ while svar == "já":
 
     if val==2:
         print("Góðan daginn, hérna mun ég biðja þig um nafnið þitt og síðan heilsa þér")
-
+        fornafn = input("Hvað er fornafnið þitt?")
+        eftirnafn = input("Hvað er eftir nafnið þitt?")
+        print("Halló ", fornafn, eftirnafn, "!")
 
     if val ==3:
         print("Góðan daginn, hérna mun ég biðja þig um texta og mun síðan telja lágu og hástafi hjá þér")
