@@ -35,6 +35,8 @@ while svar == "já":
                 i = x + 1
                 if texti[i].islower():
                     teljari = teljari +1
+        print("það eru svona margir lágstafir á eftir hástöfum", teljari)
 
     if val ==4:
         break
+
